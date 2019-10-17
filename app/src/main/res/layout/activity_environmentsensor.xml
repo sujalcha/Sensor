@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".environmentsensor"
+        android:orientation="vertical" android:padding="20dp">
+
+
+    <TextView
+            android:text="Pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/Pressure" android:padding="5dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/idpressure" android:padding="5dp"/>
+    <TextView
+            android:text="Temparature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/Temparature" android:padding="5dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/idtemparature" android:padding="5dp"/>
+    <TextView
+            android:text="Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/Light" android:padding="5dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/idlight" android:padding="5dp"/>
+    <TextView
+            android:text="Humidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/humidty" android:padding="5dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/idhumidity" android:padding="5dp"/>
+</LinearLayout>
